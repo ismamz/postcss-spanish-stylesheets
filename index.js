@@ -40,23 +40,17 @@ module.exports = postcss.plugin('postcss-spanish-stylesheets', function (opts) {
             decl.prop = decl.prop.replace('capa', 'z-index');
             decl.prop = decl.prop.replace('visibilidad', 'visibility');
             decl.prop = decl.prop.replace('animacion', 'animation');
-            decl.prop = decl.prop.replace('animacion-retraso',
-                                          'animation-delay');
-            decl.prop = decl.prop.replace('animacion-direccion',
-                                          'animation-direction');
-            decl.prop = decl.prop.replace('animacion-duracion',
-                                          'animation-duration');
+            decl.prop = decl.prop.replace('animacion-retraso', 'animation-delay');
+            decl.prop = decl.prop.replace('animacion-direccion', 'animation-direction');
+            decl.prop = decl.prop.replace('animacion-duracion', 'animation-duration');
             decl.prop = decl.prop.replace('sombra-caja', 'box-shadow');
             decl.prop = decl.prop.replace('sombra-texto', 'text-shadow');
             decl.prop = decl.prop.replace('estilo-lista', 'list-style');
             decl.prop = decl.prop.replace('transparencia', 'opacity');
             decl.prop = decl.prop.replace('transicion', 'transition');
-            decl.prop = decl.prop.replace('transicion-duracion',
-                                          'transition-duration');
-            decl.prop = decl.prop.replace('transicion-propiedad',
-                                          'transition-property');
-            decl.prop = decl.prop.replace('transicion-propiedad',
-                                          'transition-property');
+            decl.prop = decl.prop.replace('transicion-duracion', 'transition-duration');
+            decl.prop = decl.prop.replace('transicion-propiedad', 'transition-property');
+            decl.prop = decl.prop.replace('transicion-propiedad', 'transition-property');
             decl.prop = decl.prop.replace('indentacion', 'text-indent');
 
             // Position Values and Properties
