@@ -58,4 +58,4 @@ See [PostCSS] docs for examples for your environment.
 
 ## License
 
-MIT © [ismamz](http://isma.uy)
+MIT © [Ismael Martínez](http://isma.uy)
