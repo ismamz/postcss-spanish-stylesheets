@@ -1,6 +1,6 @@
 # PostCSS Spanish Stylesheets [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin for writing Spanish Stylesheets..
+[PostCSS] plugin for writing Spanish Stylesheets :es:.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/ismamz/postcss-spanish-stylesheets.svg
@@ -40,6 +40,9 @@
 }
 ```
 
+#### [See the complete list of properties and values translated](https://github.com/ismamz/postcss-spanish-stylesheets/blob/master/index.js)
+
+
 ## Usage
 
 ```js
@@ -47,3 +50,12 @@ postcss([ require('postcss-spanish-stylesheets') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+
+## En Español :es:
+- [Escribir CSS en Español](http://isma.uy/escribir-css-espanol/)
+
+
+## License
+
+MIT © [ismamz](http://isma.uy)

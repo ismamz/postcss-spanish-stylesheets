@@ -15,6 +15,11 @@ var test = function (input, output, opts, done) {
 
 describe('postcss-spanish-stylesheets', function () {
 
+    it('convert all', function (done) {
+        test('a{ redondeado: 3px; }',
+             'a{ border-radius: 3px; }', { }, done);
+    });
+
     it('converts redondeado to border-radius', function (done) {
         test('a{ redondeado: 3px; }', 'a{ border-radius: 3px; }', { }, done);
     });
