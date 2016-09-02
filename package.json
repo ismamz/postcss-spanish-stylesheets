@@ -1,6 +1,6 @@
 {
   "name": "postcss-spanish-stylesheets",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "PostCSS plugin for writing Spanish Stylesheets.",
   "keywords": [
     "postcss",
